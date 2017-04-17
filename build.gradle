@@ -33,8 +33,9 @@ repositories {
 
 
 dependencies {
-	compile 'com.github.binarywang:weixin-java-cp:2.6.0'
-	compile 'com.github.binarywang:weixin-java-pay:2.6.0'
+	// https://mvnrepository.com/artifact/com.github.binarywang/weixin-java-mp
+	compile group: 'com.github.binarywang', name: 'weixin-java-mp', version: '2.2.7'
+
 	compile 'org.mvnsearch.wechat:spring-boot-starter-wechatmp:1.0.0-SNAPSHOT'
 	compile('org.springframework.boot:spring-boot-starter')
 	compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:${kotlinVersion}")
